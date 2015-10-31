@@ -1,39 +1,33 @@
 package com.company;
 
-import java.sql.*;
+
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
 
 public class MySQLCouponsDAO implements ICouponsDAO {
 
+    private final static String  insertCoupon = "INSERT INTO coupons"+"(id,title,description) VALUES"+"(?,?,?)";
+    private final static String  deleteCoupon = "DELETE FROM coupons WHERE id="+"(?)";
+    private final static String queryCheck = "SELECT * from coupons WHERE id = ";
+    private final static String getAllCoupons = "SELECT * from coupons WHERE 1";
+
+    /**
+     *single tone
+     */
     private static MySQLCouponsDAO instance;
-    public static String driver = "org.apache.derby.jdbc.ClientDriver";
-    public static String protocol = "jdbc:derby://localhost:1527/gagamoDB;create=true";
-    private  int count;
-    private Connection connection;
-    private Statement statement;
+
+    private PreparedStatement preparedStatement;
     private ResultSet rs;
 
-    private MySQLCouponsDAO() {init();}
-
-    private void init(){
-         connection = null;
-         statement = null;
-         rs = null;
-        count = 0;
-        try {
-            connection = null;
-            //Instantiating the dirver class will indirectly register
-            //this driver as an available driver for DriverManager
-            Class.forName(driver);
-            //Getting a connection by calling getConnection
-            connection = DriverManager.getConnection(protocol);
-            statement = connection.createStatement();
-
-        }catch (Exception e){
-            e.printStackTrace();
-        }
-
+    private MySQLCouponsDAO() {
+        this.preparedStatement = null;
+        this.rs = null;
     }
 
+    /**
+     *MySQLCouponsDAO. single ton implementation
+     * @return onject instance
+     */
     public static MySQLCouponsDAO getInstance() {
         if(instance==null) {
             instance = new MySQLCouponsDAO();
@@ -41,35 +35,54 @@ public class MySQLCouponsDAO implements ICouponsDAO {
         return instance;
     }
 
-    @Override
     /**
-     * addCoupon . Adding coupon details to data base
+     * createTableInDB. run for the first time on new DB
+     * @param tableName - receive table name from main
      */
-    public void addCoupon(Coupon coupon) throws CouponsPlatformException {
-        // TODO Auto-generated method stub
+    public void createTableInDB(String tableName){
+        try {
 
-        try{
-            count++;
-            statement.execute("INSERT INTO Coupons VALUES (" + coupon.getId() + " ," + coupon.getTitle() + " , " + coupon.getDescription()+")");
+            this.preparedStatement = MysqlConnect.getInstance().connection.prepareStatement("create table " + tableName + "(id int, title VARCHAR (20) ,description VARCHAR (20))");
+            this.preparedStatement.addBatch();
+            this.preparedStatement.executeBatch();
+        }catch(Exception e){
 
-    }
-        catch (Exception e){
             e.printStackTrace();
         }
     }
 
     @Override
-    /**
-     * deleteCoupon. deleting coupon from data base by id
-     */
-    public boolean deleteCoupon(Coupon coupon) throws CouponsPlatformException {
+    public void addCoupon(Coupon coupon) throws CouponsPlatformException {
         // TODO Auto-generated method stub
-        try{
-            count--;
-            statement.execute("DELETE  FROM  Coupons WHERE id IN (5)");
-            return true;
+        try {
+            this.preparedStatement = MysqlConnect.getInstance().connection.prepareStatement(insertCoupon);
+            if(this.exist(coupon.getId())){
+                System.out.println("Coupon " + coupon.getTitle() + " id " + coupon.getId() + " is already exist");
+            }else {
+                this.preparedStatement.setInt(1, coupon.getId());
+                this.preparedStatement.setString(2, coupon.getTitle());
+                this.preparedStatement.setString(3, coupon.getDescription());
+                preparedStatement.addBatch();
+                preparedStatement.executeBatch();
+            }
+        }catch (Exception e){
+            e.printStackTrace();
         }
-        catch (Exception e){
+    }
+
+    @Override
+    public boolean deleteCoupon(Coupon coupon) throws CouponsPlatformException {
+        try {
+            this.preparedStatement = MysqlConnect.getInstance().connection.prepareStatement(deleteCoupon);
+            if(exist(coupon.getId())){
+                this.preparedStatement.setInt(1, coupon.getId());
+                preparedStatement.addBatch();
+                preparedStatement.executeBatch();
+            }
+            else {
+                System.out.println("Coupon "+coupon.getTitle() + " id "+coupon.getId()+" is not exist");
+            }
+        }catch (Exception e){
             e.printStackTrace();
         }
         return false;
@@ -77,39 +90,58 @@ public class MySQLCouponsDAO implements ICouponsDAO {
 
     @Override
     public Coupon[] getCoupons() throws CouponsPlatformException {
-        try {
-
-            rs = statement.executeQuery("SELECT id,title ,description   FROM Coupons ORDER BY id");
-
-           // while(rs.next()) count++;
-            Coupon [] arrayOfCoupons = new Coupon[count];
-            int i = 0 ;
-            while(rs.next()) {
-
-            arrayOfCoupons[i] = new Coupon(rs.getInt("id") ,rs.getString("title") , rs.getString("description"));
-                i++;
+        int rowsCounter = countRows();;
+        if (rowsCounter!= 0) {
+            int i = 0;
+            try {
+                Coupon [] couponsArr = new Coupon[rowsCounter];
+                rs = this.preparedStatement.executeQuery(
+                        "SELECT id,title,description FROM coupons ORDER BY id");
+                while (rs.next()) {
+                    couponsArr[i] = new Coupon( rs.getInt("id") ,rs.getString("title") ,rs.getString("description"));
+                    i++;
+                }
+                return couponsArr;
+            } catch (Exception e) {
+                e.printStackTrace();
             }
-            return arrayOfCoupons;
-        }catch (Exception e){
-            e.printStackTrace();
         }
-        // TODO Auto-generated method stub
+
         return null;
     }
 
-    public void buildTable(){
+    /**
+     * countRows . count row number
+     * @return rows number
+     */
+    private int countRows(){
+        int numberOfRows = 0;
         try {
-            statement.execute("create table Coupons(id int, title  VARCHAR (50) NOT NULL , description VARCHAR (50) NOT NULL )");
-        }catch(Exception e){
+            this.preparedStatement = MysqlConnect.getInstance().connection.prepareStatement(getAllCoupons);//get table table from db
+            rs = this.preparedStatement.executeQuery(
+                    "SELECT COUNT(*) FROM coupons");
+             if (rs.next()) {
+                numberOfRows = rs.getInt(1);
+            }
+
+        }catch (Exception e){
             e.printStackTrace();
+
         }
+        return numberOfRows;
     }
 
-    public void deleteTable(){
+    private boolean exist(int id){
         try {
-            statement.execute("DROP TABLE Coupons");
-        }catch(Exception e){
+            this.rs = this.preparedStatement.executeQuery(queryCheck + id);//check if coupon is already exist in table
+            if (this.rs.absolute(1)) {
+                return true;
+            }
+        }
+        catch(Exception e){
             e.printStackTrace();
         }
+        return false;
     }
+
 }

@@ -10,7 +10,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://F:/db-derby-10.12.1.1-bin/lib/derbyclient.jar!/" />
+          <root url="jar://F:/mysql-connector-java-5.1.13-bin/mysql-connector-java-5.1.13-bin.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />

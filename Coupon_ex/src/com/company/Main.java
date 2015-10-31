@@ -1,37 +1,54 @@
 package com.company;
 
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.sql.Statement;
+
 
 public class Main {
 
 
     public static void main(String[] args) {
-    Coupon myCoupon = new Coupon(2,"food","Free food for all");
+
+        /**
+         ******Step 1 ******
+         */
+        Coupon [] myCoupon = {new Coupon(2,"food","Free food for all"),new Coupon(1,"drink","Free drinks for all")};
+
+        /**
+         ******Step 2 Create table ******
+         */
+       // MySQLCouponsDAO.getInstance().createTableInDB("coupons");
+
         try {
-            MySQLCouponsDAO.getInstance().buildTable();
-            try {
-                MySQLCouponsDAO.getInstance().addCoupon(myCoupon);
-               Coupon[] arr = MySQLCouponsDAO.getInstance().getCoupons();
-                for (Coupon coupon : arr){
+            /**
+             ******Step 3 add coupons to table ******
+             */
+//            for (Coupon coupon : myCoupon) {
+//                MySQLCouponsDAO.getInstance().addCoupon(coupon);
+//            }
+
+            /**
+             ******Step 4 delete coupons to table ******
+             */
+//            for (Coupon coupon : myCoupon) {
+//                MySQLCouponsDAO.getInstance().deleteCoupon(coupon);
+//            }
+
+            /**
+             ******Step 4 get coupons to array table ******
+             */
+
+            Coupon [] myCouponsFromDb =  MySQLCouponsDAO.getInstance().getCoupons();
+
+            if (myCouponsFromDb != null) {
+                for (Coupon coupon : myCouponsFromDb) {
                     System.out.println(coupon.toString());
                 }
-               if (MySQLCouponsDAO.getInstance().deleteCoupon(myCoupon) == true){
-                   System.out.println("Successfully deleted "+myCoupon.getId());
-               }
-                else{
-                   System.out.println("Delete failed "+ myCoupon.getDescription());
-               }
-            }catch (CouponsPlatformException e){
-                e.printStackTrace();
             }
-            MySQLCouponsDAO.getInstance().deleteTable();
-        }catch (Exception e){
+            else {
+                System.out.printf("Table is empty");
+            }
+        }
+        catch (CouponsPlatformException e){
             e.printStackTrace();
         }
-
     }
 }
