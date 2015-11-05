@@ -26,7 +26,7 @@ public class MySQLCouponsDAO implements ICouponsDAO {
 
     /**
      *MySQLCouponsDAO. single ton implementation
-     * @return onject instance
+     * @return object instance
      */
     public static MySQLCouponsDAO getInstance() {
         if(instance==null) {
@@ -53,7 +53,7 @@ public class MySQLCouponsDAO implements ICouponsDAO {
 
     @Override
     public void addCoupon(Coupon coupon) throws CouponsPlatformException {
-        // TODO Auto-generated method stub
+
         try {
             this.preparedStatement = MysqlConnect.getInstance().connection.prepareStatement(insertCoupon);
             if(this.exist(coupon.getId())){
@@ -131,6 +131,11 @@ public class MySQLCouponsDAO implements ICouponsDAO {
         return numberOfRows;
     }
 
+    /**
+     * check if value is already in table
+     * @param id
+     * @return
+     */
     private boolean exist(int id){
         try {
             this.rs = this.preparedStatement.executeQuery(queryCheck + id);//check if coupon is already exist in table
