@@ -1,8 +1,11 @@
 package com.company;
 
 
+import com.mysql.jdbc.exceptions.MySQLDataException;
+
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
+import java.sql.SQLException;
 
 public class MySQLCouponsDAO implements ICouponsDAO {
 
@@ -39,20 +42,21 @@ public class MySQLCouponsDAO implements ICouponsDAO {
      * createTableInDB. run for the first time on new DB
      * @param tableName - receive table name from main
      */
-    public void createTableInDB(String tableName){
+    public void createTableInDB(String tableName) throws CouponsPlatformException, ClassNotFoundException {
         try {
 
             this.preparedStatement = MysqlConnect.getInstance().connection.prepareStatement("create table " + tableName + "(id int, title VARCHAR (20) ,description VARCHAR (20))");
             this.preparedStatement.addBatch();
             this.preparedStatement.executeBatch();
-        }catch(Exception e){
+        }catch(SQLException e){
+            throw new CouponsPlatformException("Problem create table "+tableName , e);
 
-            e.printStackTrace();
+           //
         }
     }
 
     @Override
-    public void addCoupon(Coupon coupon) throws CouponsPlatformException {
+    public void addCoupon(Coupon coupon) throws CouponsPlatformException, ClassNotFoundException {
 
         try {
             this.preparedStatement = MysqlConnect.getInstance().connection.prepareStatement(insertCoupon);
@@ -65,13 +69,14 @@ public class MySQLCouponsDAO implements ICouponsDAO {
                 preparedStatement.addBatch();
                 preparedStatement.executeBatch();
             }
-        }catch (Exception e){
-            e.printStackTrace();
+        }catch (SQLException e){
+            //e.printStackTrace();
+            throw new CouponsPlatformException("Problem add coupon" , e);
         }
     }
 
     @Override
-    public boolean deleteCoupon(Coupon coupon) throws CouponsPlatformException {
+    public boolean deleteCoupon(Coupon coupon) throws CouponsPlatformException, ClassNotFoundException {
         try {
             this.preparedStatement = MysqlConnect.getInstance().connection.prepareStatement(deleteCoupon);
             if(exist(coupon.getId())){
@@ -82,14 +87,16 @@ public class MySQLCouponsDAO implements ICouponsDAO {
             else {
                 System.out.println("Coupon "+coupon.getTitle() + " id "+coupon.getId()+" is not exist");
             }
-        }catch (Exception e){
-            e.printStackTrace();
+        }catch (SQLException e){
+          //  e.printStackTrace();
+            throw new CouponsPlatformException("Problem delete coupon" , e);
+
         }
         return false;
     }
 
     @Override
-    public Coupon[] getCoupons() throws CouponsPlatformException {
+    public Coupon[] getCoupons() throws CouponsPlatformException, ClassNotFoundException {
         int rowsCounter = countRows();;
         if (rowsCounter!= 0) {
             int i = 0;
@@ -102,8 +109,10 @@ public class MySQLCouponsDAO implements ICouponsDAO {
                     i++;
                 }
                 return couponsArr;
-            } catch (Exception e) {
-                e.printStackTrace();
+            } catch (SQLException e) {
+               // e.printStackTrace();
+                throw new CouponsPlatformException("Problem receive coupon array" , e);
+
             }
         }
 
@@ -114,7 +123,7 @@ public class MySQLCouponsDAO implements ICouponsDAO {
      * countRows . count row number
      * @return rows number
      */
-    private int countRows(){
+    private int countRows() throws CouponsPlatformException, ClassNotFoundException {
         int numberOfRows = 0;
         try {
             this.preparedStatement = MysqlConnect.getInstance().connection.prepareStatement(getAllCoupons);//get table table from db
@@ -124,8 +133,9 @@ public class MySQLCouponsDAO implements ICouponsDAO {
                 numberOfRows = rs.getInt(1);
             }
 
-        }catch (Exception e){
-            e.printStackTrace();
+        }catch (SQLException e){
+           // e.printStackTrace();
+            throw new CouponsPlatformException("Problem receive coupon array" , e);
 
         }
         return numberOfRows;

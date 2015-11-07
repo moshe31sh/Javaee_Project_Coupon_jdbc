@@ -23,11 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+            <state vertical-scroll-proportion="0.7416268">
+              <caret line="52" column="5" selection-start-line="9" selection-start-column="6" selection-end-line="52" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -37,10 +37,8 @@
         <entry file="file://$PROJECT_DIR$/src/com/company/MysqlConnect.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <caret line="37" column="29" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="29" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -59,35 +57,35 @@
         <entry file="file://$PROJECT_DIR$/src/com/company/Coupon.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="19" column="34" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="34" />
+              <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MySQLCouponsDAO.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MySQLCouponsDAO.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/MySQLCouponsDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="6.60219">
-              <caret line="134" column="41" selection-start-line="134" selection-start-column="41" selection-end-line="134" selection-end-column="41" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1446707507476" expanded="true" signature="190:241" placeholder="INSERT INTO ..." />
-                <marker date="1446707507476" expanded="true" signature="190:242" placeholder="INSERT INTO ..." />
-                <marker date="1446707507476" expanded="true" signature="190:251" placeholder="INSERT INTO ..." />
-                <marker date="1446707507476" expanded="true" signature="190:253" placeholder="INSERT INTO ..." />
-                <marker date="1446707507476" expanded="true" signature="303:338" placeholder="INSERT INTO ..." />
-                <marker date="1446707507476" expanded="true" signature="387:419" placeholder="SELECT * fro..coupons..." />
-                <marker date="1446707507476" expanded="true" signature="387:420" placeholder="SELECT * fro..coupons..." />
-                <marker date="1446707507476" expanded="true" signature="387:421" placeholder="SELECT * fro..coupons..." />
-                <marker date="1446707507476" expanded="true" signature="387:422" placeholder="SELECT * fro..coupons..." />
-                <marker date="1446707507476" expanded="true" signature="472:500" placeholder="SELECT * fro..coupons..." />
-                <marker date="1446707507476" expanded="true" signature="472:501" placeholder="SELECT * fro..coupons..." />
-                <marker date="1446707507476" expanded="true" signature="1313:1326" placeholder="create table..missingValuemissingValue..." />
-                <marker date="1446707507476" expanded="true" signature="1313:1397" placeholder="create table..missingValue..." />
-                <marker date="1446707507476" expanded="true" signature="1313:1400" placeholder="create table..missingValue..." />
-                <marker date="1446707507476" expanded="true" signature="3386:3438" placeholder="SELECT id,fe..inventory..." />
-                <marker date="1446707507476" expanded="true" signature="4160:4188" placeholder="SELECT COUNT..coupons..." />
+                <marker date="1446710598936" expanded="true" signature="274:325" placeholder="INSERT INTO ..." />
+                <marker date="1446710598936" expanded="true" signature="274:326" placeholder="INSERT INTO ..." />
+                <marker date="1446710598936" expanded="true" signature="274:335" placeholder="INSERT INTO ..." />
+                <marker date="1446710598936" expanded="true" signature="274:337" placeholder="INSERT INTO ..." />
+                <marker date="1446710598936" expanded="true" signature="387:422" placeholder="INSERT INTO ..." />
+                <marker date="1446710598936" expanded="true" signature="471:503" placeholder="SELECT * fro..coupons..." />
+                <marker date="1446710598936" expanded="true" signature="471:504" placeholder="SELECT * fro..coupons..." />
+                <marker date="1446710598936" expanded="true" signature="471:505" placeholder="SELECT * fro..coupons..." />
+                <marker date="1446710598936" expanded="true" signature="471:506" placeholder="SELECT * fro..coupons..." />
+                <marker date="1446710598936" expanded="true" signature="556:584" placeholder="SELECT * fro..coupons..." />
+                <marker date="1446710598936" expanded="true" signature="556:585" placeholder="SELECT * fro..coupons..." />
+                <marker date="1446710598936" expanded="true" signature="1454:1467" placeholder="create table..missingValuemissingValue..." />
+                <marker date="1446710598936" expanded="true" signature="1454:1538" placeholder="create table..missingValue..." />
+                <marker date="1446710598936" expanded="true" signature="1454:1541" placeholder="create table..missingValue..." />
+                <marker date="1446710598936" expanded="true" signature="3832:3884" placeholder="SELECT id,fe..inventory..." />
+                <marker date="1446710598936" expanded="true" signature="4757:4785" placeholder="SELECT COUNT..coupons..." />
               </folding>
             </state>
           </provider>
@@ -121,15 +119,15 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/company/CouponsPlatformException.java" />
         <option value="$PROJECT_DIR$/src/com/company/ICouponsDAO.java" />
         <option value="$PROJECT_DIR$/src/com/company/ConnectToServer.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Coupon.java" />
         <option value="$PROJECT_DIR$/src/com/company/ConnectToDerby.java" />
         <option value="$PROJECT_DIR$/src/com/company/ConnectTojdbc.java" />
+        <option value="$PROJECT_DIR$/src/com/company/CouponsPlatformException.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Coupon.java" />
         <option value="$PROJECT_DIR$/src/com/company/MysqlConnect.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Main.java" />
         <option value="$PROJECT_DIR$/src/com/company/MySQLCouponsDAO.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Main.java" />
       </list>
     </option>
   </component>
@@ -214,9 +212,9 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -558,26 +556,25 @@
       <workItem from="1446209806538" duration="8970000" />
       <workItem from="1446283969176" duration="3989000" />
       <workItem from="1446640567953" duration="3857000" />
-      <workItem from="1446706894526" duration="615000" />
+      <workItem from="1446706894526" duration="4359000" />
+      <workItem from="1446816073440" duration="758000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39341000" />
+    <option name="totallyTimeSpent" value="43843000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="-11" width="1942" height="1042" extended-state="7" />
+    <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3298969" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1765625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -586,13 +583,15 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -644,6 +643,72 @@
     <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
+          <caret line="38" column="49" selection-start-line="38" selection-start-column="49" selection-end-line="38" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/MysqlConnect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="37" column="29" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/CouponsPlatformException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Coupon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/MySQLCouponsDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1446710598936" expanded="true" signature="274:325" placeholder="INSERT INTO ..." />
+            <marker date="1446710598936" expanded="true" signature="274:326" placeholder="INSERT INTO ..." />
+            <marker date="1446710598936" expanded="true" signature="274:335" placeholder="INSERT INTO ..." />
+            <marker date="1446710598936" expanded="true" signature="274:337" placeholder="INSERT INTO ..." />
+            <marker date="1446710598936" expanded="true" signature="387:422" placeholder="INSERT INTO ..." />
+            <marker date="1446710598936" expanded="true" signature="471:503" placeholder="SELECT * fro..coupons..." />
+            <marker date="1446710598936" expanded="true" signature="471:504" placeholder="SELECT * fro..coupons..." />
+            <marker date="1446710598936" expanded="true" signature="471:505" placeholder="SELECT * fro..coupons..." />
+            <marker date="1446710598936" expanded="true" signature="471:506" placeholder="SELECT * fro..coupons..." />
+            <marker date="1446710598936" expanded="true" signature="556:584" placeholder="SELECT * fro..coupons..." />
+            <marker date="1446710598936" expanded="true" signature="556:585" placeholder="SELECT * fro..coupons..." />
+            <marker date="1446710598936" expanded="true" signature="1454:1467" placeholder="create table..missingValuemissingValue..." />
+            <marker date="1446710598936" expanded="true" signature="1454:1538" placeholder="create table..missingValue..." />
+            <marker date="1446710598936" expanded="true" signature="1454:1541" placeholder="create table..missingValue..." />
+            <marker date="1446710598936" expanded="true" signature="3832:3884" placeholder="SELECT id,fe..inventory..." />
+            <marker date="1446710598936" expanded="true" signature="4757:4785" placeholder="SELECT COUNT..coupons..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/ICouponsDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
           <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
@@ -653,9 +718,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -681,22 +744,22 @@
           <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1446707507476" expanded="true" signature="190:241" placeholder="INSERT INTO ..." />
-            <marker date="1446707507476" expanded="true" signature="190:242" placeholder="INSERT INTO ..." />
-            <marker date="1446707507476" expanded="true" signature="190:251" placeholder="INSERT INTO ..." />
-            <marker date="1446707507476" expanded="true" signature="190:253" placeholder="INSERT INTO ..." />
-            <marker date="1446707507476" expanded="true" signature="303:338" placeholder="INSERT INTO ..." />
-            <marker date="1446707507476" expanded="true" signature="387:419" placeholder="SELECT * fro..coupons..." />
-            <marker date="1446707507476" expanded="true" signature="387:420" placeholder="SELECT * fro..coupons..." />
-            <marker date="1446707507476" expanded="true" signature="387:421" placeholder="SELECT * fro..coupons..." />
-            <marker date="1446707507476" expanded="true" signature="387:422" placeholder="SELECT * fro..coupons..." />
-            <marker date="1446707507476" expanded="true" signature="472:500" placeholder="SELECT * fro..coupons..." />
-            <marker date="1446707507476" expanded="true" signature="472:501" placeholder="SELECT * fro..coupons..." />
-            <marker date="1446707507476" expanded="true" signature="1313:1326" placeholder="create table..missingValuemissingValue..." />
-            <marker date="1446707507476" expanded="true" signature="1313:1397" placeholder="create table..missingValue..." />
-            <marker date="1446707507476" expanded="true" signature="1313:1400" placeholder="create table..missingValue..." />
-            <marker date="1446707507476" expanded="true" signature="3386:3438" placeholder="SELECT id,fe..inventory..." />
-            <marker date="1446707507476" expanded="true" signature="4160:4188" placeholder="SELECT COUNT..coupons..." />
+            <marker date="1446710598936" expanded="true" signature="274:325" placeholder="INSERT INTO ..." />
+            <marker date="1446710598936" expanded="true" signature="274:326" placeholder="INSERT INTO ..." />
+            <marker date="1446710598936" expanded="true" signature="274:335" placeholder="INSERT INTO ..." />
+            <marker date="1446710598936" expanded="true" signature="274:337" placeholder="INSERT INTO ..." />
+            <marker date="1446710598936" expanded="true" signature="387:422" placeholder="INSERT INTO ..." />
+            <marker date="1446710598936" expanded="true" signature="471:503" placeholder="SELECT * fro..coupons..." />
+            <marker date="1446710598936" expanded="true" signature="471:504" placeholder="SELECT * fro..coupons..." />
+            <marker date="1446710598936" expanded="true" signature="471:505" placeholder="SELECT * fro..coupons..." />
+            <marker date="1446710598936" expanded="true" signature="471:506" placeholder="SELECT * fro..coupons..." />
+            <marker date="1446710598936" expanded="true" signature="556:584" placeholder="SELECT * fro..coupons..." />
+            <marker date="1446710598936" expanded="true" signature="556:585" placeholder="SELECT * fro..coupons..." />
+            <marker date="1446710598936" expanded="true" signature="1454:1467" placeholder="create table..missingValuemissingValue..." />
+            <marker date="1446710598936" expanded="true" signature="1454:1538" placeholder="create table..missingValue..." />
+            <marker date="1446710598936" expanded="true" signature="1454:1541" placeholder="create table..missingValue..." />
+            <marker date="1446710598936" expanded="true" signature="3832:3884" placeholder="SELECT id,fe..inventory..." />
+            <marker date="1446710598936" expanded="true" signature="4757:4785" placeholder="SELECT COUNT..coupons..." />
           </folding>
         </state>
       </provider>
@@ -721,9 +784,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -741,22 +802,22 @@
           <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1446707507476" expanded="true" signature="190:241" placeholder="INSERT INTO ..." />
-            <marker date="1446707507476" expanded="true" signature="190:242" placeholder="INSERT INTO ..." />
-            <marker date="1446707507476" expanded="true" signature="190:251" placeholder="INSERT INTO ..." />
-            <marker date="1446707507476" expanded="true" signature="190:253" placeholder="INSERT INTO ..." />
-            <marker date="1446707507476" expanded="true" signature="303:338" placeholder="INSERT INTO ..." />
-            <marker date="1446707507476" expanded="true" signature="387:419" placeholder="SELECT * fro..coupons..." />
-            <marker date="1446707507476" expanded="true" signature="387:420" placeholder="SELECT * fro..coupons..." />
-            <marker date="1446707507476" expanded="true" signature="387:421" placeholder="SELECT * fro..coupons..." />
-            <marker date="1446707507476" expanded="true" signature="387:422" placeholder="SELECT * fro..coupons..." />
-            <marker date="1446707507476" expanded="true" signature="472:500" placeholder="SELECT * fro..coupons..." />
-            <marker date="1446707507476" expanded="true" signature="472:501" placeholder="SELECT * fro..coupons..." />
-            <marker date="1446707507476" expanded="true" signature="1313:1326" placeholder="create table..missingValuemissingValue..." />
-            <marker date="1446707507476" expanded="true" signature="1313:1397" placeholder="create table..missingValue..." />
-            <marker date="1446707507476" expanded="true" signature="1313:1400" placeholder="create table..missingValue..." />
-            <marker date="1446707507476" expanded="true" signature="3386:3438" placeholder="SELECT id,fe..inventory..." />
-            <marker date="1446707507476" expanded="true" signature="4160:4188" placeholder="SELECT COUNT..coupons..." />
+            <marker date="1446710598936" expanded="true" signature="274:325" placeholder="INSERT INTO ..." />
+            <marker date="1446710598936" expanded="true" signature="274:326" placeholder="INSERT INTO ..." />
+            <marker date="1446710598936" expanded="true" signature="274:335" placeholder="INSERT INTO ..." />
+            <marker date="1446710598936" expanded="true" signature="274:337" placeholder="INSERT INTO ..." />
+            <marker date="1446710598936" expanded="true" signature="387:422" placeholder="INSERT INTO ..." />
+            <marker date="1446710598936" expanded="true" signature="471:503" placeholder="SELECT * fro..coupons..." />
+            <marker date="1446710598936" expanded="true" signature="471:504" placeholder="SELECT * fro..coupons..." />
+            <marker date="1446710598936" expanded="true" signature="471:505" placeholder="SELECT * fro..coupons..." />
+            <marker date="1446710598936" expanded="true" signature="471:506" placeholder="SELECT * fro..coupons..." />
+            <marker date="1446710598936" expanded="true" signature="556:584" placeholder="SELECT * fro..coupons..." />
+            <marker date="1446710598936" expanded="true" signature="556:585" placeholder="SELECT * fro..coupons..." />
+            <marker date="1446710598936" expanded="true" signature="1454:1467" placeholder="create table..missingValuemissingValue..." />
+            <marker date="1446710598936" expanded="true" signature="1454:1538" placeholder="create table..missingValue..." />
+            <marker date="1446710598936" expanded="true" signature="1454:1541" placeholder="create table..missingValue..." />
+            <marker date="1446710598936" expanded="true" signature="3832:3884" placeholder="SELECT id,fe..inventory..." />
+            <marker date="1446710598936" expanded="true" signature="4757:4785" placeholder="SELECT COUNT..coupons..." />
           </folding>
         </state>
       </provider>
@@ -783,22 +844,22 @@
           <caret line="45" column="63" selection-start-line="45" selection-start-column="63" selection-end-line="45" selection-end-column="63" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1446707507476" expanded="true" signature="190:241" placeholder="INSERT INTO ..." />
-            <marker date="1446707507476" expanded="true" signature="190:242" placeholder="INSERT INTO ..." />
-            <marker date="1446707507476" expanded="true" signature="190:251" placeholder="INSERT INTO ..." />
-            <marker date="1446707507476" expanded="true" signature="190:253" placeholder="INSERT INTO ..." />
-            <marker date="1446707507476" expanded="true" signature="303:338" placeholder="INSERT INTO ..." />
-            <marker date="1446707507476" expanded="true" signature="387:419" placeholder="SELECT * fro..coupons..." />
-            <marker date="1446707507476" expanded="true" signature="387:420" placeholder="SELECT * fro..coupons..." />
-            <marker date="1446707507476" expanded="true" signature="387:421" placeholder="SELECT * fro..coupons..." />
-            <marker date="1446707507476" expanded="true" signature="387:422" placeholder="SELECT * fro..coupons..." />
-            <marker date="1446707507476" expanded="true" signature="472:500" placeholder="SELECT * fro..coupons..." />
-            <marker date="1446707507476" expanded="true" signature="472:501" placeholder="SELECT * fro..coupons..." />
-            <marker date="1446707507476" expanded="true" signature="1313:1326" placeholder="create table..missingValuemissingValue..." />
-            <marker date="1446707507476" expanded="true" signature="1313:1397" placeholder="create table..missingValue..." />
-            <marker date="1446707507476" expanded="true" signature="1313:1400" placeholder="create table..missingValue..." />
-            <marker date="1446707507476" expanded="true" signature="3386:3438" placeholder="SELECT id,fe..inventory..." />
-            <marker date="1446707507476" expanded="true" signature="4160:4188" placeholder="SELECT COUNT..coupons..." />
+            <marker date="1446710598936" expanded="true" signature="274:325" placeholder="INSERT INTO ..." />
+            <marker date="1446710598936" expanded="true" signature="274:326" placeholder="INSERT INTO ..." />
+            <marker date="1446710598936" expanded="true" signature="274:335" placeholder="INSERT INTO ..." />
+            <marker date="1446710598936" expanded="true" signature="274:337" placeholder="INSERT INTO ..." />
+            <marker date="1446710598936" expanded="true" signature="387:422" placeholder="INSERT INTO ..." />
+            <marker date="1446710598936" expanded="true" signature="471:503" placeholder="SELECT * fro..coupons..." />
+            <marker date="1446710598936" expanded="true" signature="471:504" placeholder="SELECT * fro..coupons..." />
+            <marker date="1446710598936" expanded="true" signature="471:505" placeholder="SELECT * fro..coupons..." />
+            <marker date="1446710598936" expanded="true" signature="471:506" placeholder="SELECT * fro..coupons..." />
+            <marker date="1446710598936" expanded="true" signature="556:584" placeholder="SELECT * fro..coupons..." />
+            <marker date="1446710598936" expanded="true" signature="556:585" placeholder="SELECT * fro..coupons..." />
+            <marker date="1446710598936" expanded="true" signature="1454:1467" placeholder="create table..missingValuemissingValue..." />
+            <marker date="1446710598936" expanded="true" signature="1454:1538" placeholder="create table..missingValue..." />
+            <marker date="1446710598936" expanded="true" signature="1454:1541" placeholder="create table..missingValue..." />
+            <marker date="1446710598936" expanded="true" signature="3832:3884" placeholder="SELECT id,fe..inventory..." />
+            <marker date="1446710598936" expanded="true" signature="4757:4785" placeholder="SELECT COUNT..coupons..." />
           </folding>
         </state>
       </provider>
@@ -841,22 +902,22 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1446707507476" expanded="true" signature="190:241" placeholder="INSERT INTO ..." />
-            <marker date="1446707507476" expanded="true" signature="190:242" placeholder="INSERT INTO ..." />
-            <marker date="1446707507476" expanded="true" signature="190:251" placeholder="INSERT INTO ..." />
-            <marker date="1446707507476" expanded="true" signature="190:253" placeholder="INSERT INTO ..." />
-            <marker date="1446707507476" expanded="true" signature="303:338" placeholder="INSERT INTO ..." />
-            <marker date="1446707507476" expanded="true" signature="387:419" placeholder="SELECT * fro..coupons..." />
-            <marker date="1446707507476" expanded="true" signature="387:420" placeholder="SELECT * fro..coupons..." />
-            <marker date="1446707507476" expanded="true" signature="387:421" placeholder="SELECT * fro..coupons..." />
-            <marker date="1446707507476" expanded="true" signature="387:422" placeholder="SELECT * fro..coupons..." />
-            <marker date="1446707507476" expanded="true" signature="472:500" placeholder="SELECT * fro..coupons..." />
-            <marker date="1446707507476" expanded="true" signature="472:501" placeholder="SELECT * fro..coupons..." />
-            <marker date="1446707507476" expanded="true" signature="1313:1326" placeholder="create table..missingValuemissingValue..." />
-            <marker date="1446707507476" expanded="true" signature="1313:1397" placeholder="create table..missingValue..." />
-            <marker date="1446707507476" expanded="true" signature="1313:1400" placeholder="create table..missingValue..." />
-            <marker date="1446707507476" expanded="true" signature="3386:3438" placeholder="SELECT id,fe..inventory..." />
-            <marker date="1446707507476" expanded="true" signature="4160:4188" placeholder="SELECT COUNT..coupons..." />
+            <marker date="1446710598936" expanded="true" signature="274:325" placeholder="INSERT INTO ..." />
+            <marker date="1446710598936" expanded="true" signature="274:326" placeholder="INSERT INTO ..." />
+            <marker date="1446710598936" expanded="true" signature="274:335" placeholder="INSERT INTO ..." />
+            <marker date="1446710598936" expanded="true" signature="274:337" placeholder="INSERT INTO ..." />
+            <marker date="1446710598936" expanded="true" signature="387:422" placeholder="INSERT INTO ..." />
+            <marker date="1446710598936" expanded="true" signature="471:503" placeholder="SELECT * fro..coupons..." />
+            <marker date="1446710598936" expanded="true" signature="471:504" placeholder="SELECT * fro..coupons..." />
+            <marker date="1446710598936" expanded="true" signature="471:505" placeholder="SELECT * fro..coupons..." />
+            <marker date="1446710598936" expanded="true" signature="471:506" placeholder="SELECT * fro..coupons..." />
+            <marker date="1446710598936" expanded="true" signature="556:584" placeholder="SELECT * fro..coupons..." />
+            <marker date="1446710598936" expanded="true" signature="556:585" placeholder="SELECT * fro..coupons..." />
+            <marker date="1446710598936" expanded="true" signature="1454:1467" placeholder="create table..missingValuemissingValue..." />
+            <marker date="1446710598936" expanded="true" signature="1454:1538" placeholder="create table..missingValue..." />
+            <marker date="1446710598936" expanded="true" signature="1454:1541" placeholder="create table..missingValue..." />
+            <marker date="1446710598936" expanded="true" signature="3832:3884" placeholder="SELECT id,fe..inventory..." />
+            <marker date="1446710598936" expanded="true" signature="4757:4785" placeholder="SELECT COUNT..coupons..." />
           </folding>
         </state>
       </provider>
@@ -883,22 +944,22 @@
           <caret line="84" column="55" selection-start-line="84" selection-start-column="55" selection-end-line="84" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1446707507476" expanded="true" signature="190:241" placeholder="INSERT INTO ..." />
-            <marker date="1446707507476" expanded="true" signature="190:242" placeholder="INSERT INTO ..." />
-            <marker date="1446707507476" expanded="true" signature="190:251" placeholder="INSERT INTO ..." />
-            <marker date="1446707507476" expanded="true" signature="190:253" placeholder="INSERT INTO ..." />
-            <marker date="1446707507476" expanded="true" signature="303:338" placeholder="INSERT INTO ..." />
-            <marker date="1446707507476" expanded="true" signature="387:419" placeholder="SELECT * fro..coupons..." />
-            <marker date="1446707507476" expanded="true" signature="387:420" placeholder="SELECT * fro..coupons..." />
-            <marker date="1446707507476" expanded="true" signature="387:421" placeholder="SELECT * fro..coupons..." />
-            <marker date="1446707507476" expanded="true" signature="387:422" placeholder="SELECT * fro..coupons..." />
-            <marker date="1446707507476" expanded="true" signature="472:500" placeholder="SELECT * fro..coupons..." />
-            <marker date="1446707507476" expanded="true" signature="472:501" placeholder="SELECT * fro..coupons..." />
-            <marker date="1446707507476" expanded="true" signature="1313:1326" placeholder="create table..missingValuemissingValue..." />
-            <marker date="1446707507476" expanded="true" signature="1313:1397" placeholder="create table..missingValue..." />
-            <marker date="1446707507476" expanded="true" signature="1313:1400" placeholder="create table..missingValue..." />
-            <marker date="1446707507476" expanded="true" signature="3386:3438" placeholder="SELECT id,fe..inventory..." />
-            <marker date="1446707507476" expanded="true" signature="4160:4188" placeholder="SELECT COUNT..coupons..." />
+            <marker date="1446710598936" expanded="true" signature="274:325" placeholder="INSERT INTO ..." />
+            <marker date="1446710598936" expanded="true" signature="274:326" placeholder="INSERT INTO ..." />
+            <marker date="1446710598936" expanded="true" signature="274:335" placeholder="INSERT INTO ..." />
+            <marker date="1446710598936" expanded="true" signature="274:337" placeholder="INSERT INTO ..." />
+            <marker date="1446710598936" expanded="true" signature="387:422" placeholder="INSERT INTO ..." />
+            <marker date="1446710598936" expanded="true" signature="471:503" placeholder="SELECT * fro..coupons..." />
+            <marker date="1446710598936" expanded="true" signature="471:504" placeholder="SELECT * fro..coupons..." />
+            <marker date="1446710598936" expanded="true" signature="471:505" placeholder="SELECT * fro..coupons..." />
+            <marker date="1446710598936" expanded="true" signature="471:506" placeholder="SELECT * fro..coupons..." />
+            <marker date="1446710598936" expanded="true" signature="556:584" placeholder="SELECT * fro..coupons..." />
+            <marker date="1446710598936" expanded="true" signature="556:585" placeholder="SELECT * fro..coupons..." />
+            <marker date="1446710598936" expanded="true" signature="1454:1467" placeholder="create table..missingValuemissingValue..." />
+            <marker date="1446710598936" expanded="true" signature="1454:1538" placeholder="create table..missingValue..." />
+            <marker date="1446710598936" expanded="true" signature="1454:1541" placeholder="create table..missingValue..." />
+            <marker date="1446710598936" expanded="true" signature="3832:3884" placeholder="SELECT id,fe..inventory..." />
+            <marker date="1446710598936" expanded="true" signature="4757:4785" placeholder="SELECT COUNT..coupons..." />
           </folding>
         </state>
       </provider>
@@ -925,22 +986,22 @@
           <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1446707507476" expanded="true" signature="190:241" placeholder="INSERT INTO ..." />
-            <marker date="1446707507476" expanded="true" signature="190:242" placeholder="INSERT INTO ..." />
-            <marker date="1446707507476" expanded="true" signature="190:251" placeholder="INSERT INTO ..." />
-            <marker date="1446707507476" expanded="true" signature="190:253" placeholder="INSERT INTO ..." />
-            <marker date="1446707507476" expanded="true" signature="303:338" placeholder="INSERT INTO ..." />
-            <marker date="1446707507476" expanded="true" signature="387:419" placeholder="SELECT * fro..coupons..." />
-            <marker date="1446707507476" expanded="true" signature="387:420" placeholder="SELECT * fro..coupons..." />
-            <marker date="1446707507476" expanded="true" signature="387:421" placeholder="SELECT * fro..coupons..." />
-            <marker date="1446707507476" expanded="true" signature="387:422" placeholder="SELECT * fro..coupons..." />
-            <marker date="1446707507476" expanded="true" signature="472:500" placeholder="SELECT * fro..coupons..." />
-            <marker date="1446707507476" expanded="true" signature="472:501" placeholder="SELECT * fro..coupons..." />
-            <marker date="1446707507476" expanded="true" signature="1313:1326" placeholder="create table..missingValuemissingValue..." />
-            <marker date="1446707507476" expanded="true" signature="1313:1397" placeholder="create table..missingValue..." />
-            <marker date="1446707507476" expanded="true" signature="1313:1400" placeholder="create table..missingValue..." />
-            <marker date="1446707507476" expanded="true" signature="3386:3438" placeholder="SELECT id,fe..inventory..." />
-            <marker date="1446707507476" expanded="true" signature="4160:4188" placeholder="SELECT COUNT..coupons..." />
+            <marker date="1446710598936" expanded="true" signature="274:325" placeholder="INSERT INTO ..." />
+            <marker date="1446710598936" expanded="true" signature="274:326" placeholder="INSERT INTO ..." />
+            <marker date="1446710598936" expanded="true" signature="274:335" placeholder="INSERT INTO ..." />
+            <marker date="1446710598936" expanded="true" signature="274:337" placeholder="INSERT INTO ..." />
+            <marker date="1446710598936" expanded="true" signature="387:422" placeholder="INSERT INTO ..." />
+            <marker date="1446710598936" expanded="true" signature="471:503" placeholder="SELECT * fro..coupons..." />
+            <marker date="1446710598936" expanded="true" signature="471:504" placeholder="SELECT * fro..coupons..." />
+            <marker date="1446710598936" expanded="true" signature="471:505" placeholder="SELECT * fro..coupons..." />
+            <marker date="1446710598936" expanded="true" signature="471:506" placeholder="SELECT * fro..coupons..." />
+            <marker date="1446710598936" expanded="true" signature="556:584" placeholder="SELECT * fro..coupons..." />
+            <marker date="1446710598936" expanded="true" signature="556:585" placeholder="SELECT * fro..coupons..." />
+            <marker date="1446710598936" expanded="true" signature="1454:1467" placeholder="create table..missingValuemissingValue..." />
+            <marker date="1446710598936" expanded="true" signature="1454:1538" placeholder="create table..missingValue..." />
+            <marker date="1446710598936" expanded="true" signature="1454:1541" placeholder="create table..missingValue..." />
+            <marker date="1446710598936" expanded="true" signature="3832:3884" placeholder="SELECT id,fe..inventory..." />
+            <marker date="1446710598936" expanded="true" signature="4757:4785" placeholder="SELECT COUNT..coupons..." />
           </folding>
         </state>
       </provider>
@@ -967,22 +1028,22 @@
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1446707507476" expanded="true" signature="190:241" placeholder="INSERT INTO ..." />
-            <marker date="1446707507476" expanded="true" signature="190:242" placeholder="INSERT INTO ..." />
-            <marker date="1446707507476" expanded="true" signature="190:251" placeholder="INSERT INTO ..." />
-            <marker date="1446707507476" expanded="true" signature="190:253" placeholder="INSERT INTO ..." />
-            <marker date="1446707507476" expanded="true" signature="303:338" placeholder="INSERT INTO ..." />
-            <marker date="1446707507476" expanded="true" signature="387:419" placeholder="SELECT * fro..coupons..." />
-            <marker date="1446707507476" expanded="true" signature="387:420" placeholder="SELECT * fro..coupons..." />
-            <marker date="1446707507476" expanded="true" signature="387:421" placeholder="SELECT * fro..coupons..." />
-            <marker date="1446707507476" expanded="true" signature="387:422" placeholder="SELECT * fro..coupons..." />
-            <marker date="1446707507476" expanded="true" signature="472:500" placeholder="SELECT * fro..coupons..." />
-            <marker date="1446707507476" expanded="true" signature="472:501" placeholder="SELECT * fro..coupons..." />
-            <marker date="1446707507476" expanded="true" signature="1313:1326" placeholder="create table..missingValuemissingValue..." />
-            <marker date="1446707507476" expanded="true" signature="1313:1397" placeholder="create table..missingValue..." />
-            <marker date="1446707507476" expanded="true" signature="1313:1400" placeholder="create table..missingValue..." />
-            <marker date="1446707507476" expanded="true" signature="3386:3438" placeholder="SELECT id,fe..inventory..." />
-            <marker date="1446707507476" expanded="true" signature="4160:4188" placeholder="SELECT COUNT..coupons..." />
+            <marker date="1446710598936" expanded="true" signature="274:325" placeholder="INSERT INTO ..." />
+            <marker date="1446710598936" expanded="true" signature="274:326" placeholder="INSERT INTO ..." />
+            <marker date="1446710598936" expanded="true" signature="274:335" placeholder="INSERT INTO ..." />
+            <marker date="1446710598936" expanded="true" signature="274:337" placeholder="INSERT INTO ..." />
+            <marker date="1446710598936" expanded="true" signature="387:422" placeholder="INSERT INTO ..." />
+            <marker date="1446710598936" expanded="true" signature="471:503" placeholder="SELECT * fro..coupons..." />
+            <marker date="1446710598936" expanded="true" signature="471:504" placeholder="SELECT * fro..coupons..." />
+            <marker date="1446710598936" expanded="true" signature="471:505" placeholder="SELECT * fro..coupons..." />
+            <marker date="1446710598936" expanded="true" signature="471:506" placeholder="SELECT * fro..coupons..." />
+            <marker date="1446710598936" expanded="true" signature="556:584" placeholder="SELECT * fro..coupons..." />
+            <marker date="1446710598936" expanded="true" signature="556:585" placeholder="SELECT * fro..coupons..." />
+            <marker date="1446710598936" expanded="true" signature="1454:1467" placeholder="create table..missingValuemissingValue..." />
+            <marker date="1446710598936" expanded="true" signature="1454:1538" placeholder="create table..missingValue..." />
+            <marker date="1446710598936" expanded="true" signature="1454:1541" placeholder="create table..missingValue..." />
+            <marker date="1446710598936" expanded="true" signature="3832:3884" placeholder="SELECT id,fe..inventory..." />
+            <marker date="1446710598936" expanded="true" signature="4757:4785" placeholder="SELECT COUNT..coupons..." />
           </folding>
         </state>
       </provider>
@@ -1009,22 +1070,22 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1446707507476" expanded="true" signature="190:241" placeholder="INSERT INTO ..." />
-            <marker date="1446707507476" expanded="true" signature="190:242" placeholder="INSERT INTO ..." />
-            <marker date="1446707507476" expanded="true" signature="190:251" placeholder="INSERT INTO ..." />
-            <marker date="1446707507476" expanded="true" signature="190:253" placeholder="INSERT INTO ..." />
-            <marker date="1446707507476" expanded="true" signature="303:338" placeholder="INSERT INTO ..." />
-            <marker date="1446707507476" expanded="true" signature="387:419" placeholder="SELECT * fro..coupons..." />
-            <marker date="1446707507476" expanded="true" signature="387:420" placeholder="SELECT * fro..coupons..." />
-            <marker date="1446707507476" expanded="true" signature="387:421" placeholder="SELECT * fro..coupons..." />
-            <marker date="1446707507476" expanded="true" signature="387:422" placeholder="SELECT * fro..coupons..." />
-            <marker date="1446707507476" expanded="true" signature="472:500" placeholder="SELECT * fro..coupons..." />
-            <marker date="1446707507476" expanded="true" signature="472:501" placeholder="SELECT * fro..coupons..." />
-            <marker date="1446707507476" expanded="true" signature="1313:1326" placeholder="create table..missingValuemissingValue..." />
-            <marker date="1446707507476" expanded="true" signature="1313:1397" placeholder="create table..missingValue..." />
-            <marker date="1446707507476" expanded="true" signature="1313:1400" placeholder="create table..missingValue..." />
-            <marker date="1446707507476" expanded="true" signature="3386:3438" placeholder="SELECT id,fe..inventory..." />
-            <marker date="1446707507476" expanded="true" signature="4160:4188" placeholder="SELECT COUNT..coupons..." />
+            <marker date="1446710598936" expanded="true" signature="274:325" placeholder="INSERT INTO ..." />
+            <marker date="1446710598936" expanded="true" signature="274:326" placeholder="INSERT INTO ..." />
+            <marker date="1446710598936" expanded="true" signature="274:335" placeholder="INSERT INTO ..." />
+            <marker date="1446710598936" expanded="true" signature="274:337" placeholder="INSERT INTO ..." />
+            <marker date="1446710598936" expanded="true" signature="387:422" placeholder="INSERT INTO ..." />
+            <marker date="1446710598936" expanded="true" signature="471:503" placeholder="SELECT * fro..coupons..." />
+            <marker date="1446710598936" expanded="true" signature="471:504" placeholder="SELECT * fro..coupons..." />
+            <marker date="1446710598936" expanded="true" signature="471:505" placeholder="SELECT * fro..coupons..." />
+            <marker date="1446710598936" expanded="true" signature="471:506" placeholder="SELECT * fro..coupons..." />
+            <marker date="1446710598936" expanded="true" signature="556:584" placeholder="SELECT * fro..coupons..." />
+            <marker date="1446710598936" expanded="true" signature="556:585" placeholder="SELECT * fro..coupons..." />
+            <marker date="1446710598936" expanded="true" signature="1454:1467" placeholder="create table..missingValuemissingValue..." />
+            <marker date="1446710598936" expanded="true" signature="1454:1538" placeholder="create table..missingValue..." />
+            <marker date="1446710598936" expanded="true" signature="1454:1541" placeholder="create table..missingValue..." />
+            <marker date="1446710598936" expanded="true" signature="3832:3884" placeholder="SELECT id,fe..inventory..." />
+            <marker date="1446710598936" expanded="true" signature="4757:4785" placeholder="SELECT COUNT..coupons..." />
           </folding>
         </state>
       </provider>
@@ -1037,10 +1098,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/ICouponsDAO.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/Coupon.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
           <folding />
         </state>
       </provider>
@@ -1053,18 +1114,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Coupon.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/ICouponsDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="34" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
           <folding />
         </state>
       </provider>
@@ -1072,36 +1125,42 @@
     <entry file="file://$PROJECT_DIR$/src/com/company/MysqlConnect.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="37" column="29" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="29" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/MySQLCouponsDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="6.60219">
-          <caret line="134" column="41" selection-start-line="134" selection-start-column="41" selection-end-line="134" selection-end-column="41" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1446707507476" expanded="true" signature="190:241" placeholder="INSERT INTO ..." />
-            <marker date="1446707507476" expanded="true" signature="190:242" placeholder="INSERT INTO ..." />
-            <marker date="1446707507476" expanded="true" signature="190:251" placeholder="INSERT INTO ..." />
-            <marker date="1446707507476" expanded="true" signature="190:253" placeholder="INSERT INTO ..." />
-            <marker date="1446707507476" expanded="true" signature="303:338" placeholder="INSERT INTO ..." />
-            <marker date="1446707507476" expanded="true" signature="387:419" placeholder="SELECT * fro..coupons..." />
-            <marker date="1446707507476" expanded="true" signature="387:420" placeholder="SELECT * fro..coupons..." />
-            <marker date="1446707507476" expanded="true" signature="387:421" placeholder="SELECT * fro..coupons..." />
-            <marker date="1446707507476" expanded="true" signature="387:422" placeholder="SELECT * fro..coupons..." />
-            <marker date="1446707507476" expanded="true" signature="472:500" placeholder="SELECT * fro..coupons..." />
-            <marker date="1446707507476" expanded="true" signature="472:501" placeholder="SELECT * fro..coupons..." />
-            <marker date="1446707507476" expanded="true" signature="1313:1326" placeholder="create table..missingValuemissingValue..." />
-            <marker date="1446707507476" expanded="true" signature="1313:1397" placeholder="create table..missingValue..." />
-            <marker date="1446707507476" expanded="true" signature="1313:1400" placeholder="create table..missingValue..." />
-            <marker date="1446707507476" expanded="true" signature="3386:3438" placeholder="SELECT id,fe..inventory..." />
-            <marker date="1446707507476" expanded="true" signature="4160:4188" placeholder="SELECT COUNT..coupons..." />
+            <marker date="1446710598936" expanded="true" signature="274:325" placeholder="INSERT INTO ..." />
+            <marker date="1446710598936" expanded="true" signature="274:326" placeholder="INSERT INTO ..." />
+            <marker date="1446710598936" expanded="true" signature="274:335" placeholder="INSERT INTO ..." />
+            <marker date="1446710598936" expanded="true" signature="274:337" placeholder="INSERT INTO ..." />
+            <marker date="1446710598936" expanded="true" signature="387:422" placeholder="INSERT INTO ..." />
+            <marker date="1446710598936" expanded="true" signature="471:503" placeholder="SELECT * fro..coupons..." />
+            <marker date="1446710598936" expanded="true" signature="471:504" placeholder="SELECT * fro..coupons..." />
+            <marker date="1446710598936" expanded="true" signature="471:505" placeholder="SELECT * fro..coupons..." />
+            <marker date="1446710598936" expanded="true" signature="471:506" placeholder="SELECT * fro..coupons..." />
+            <marker date="1446710598936" expanded="true" signature="556:584" placeholder="SELECT * fro..coupons..." />
+            <marker date="1446710598936" expanded="true" signature="556:585" placeholder="SELECT * fro..coupons..." />
+            <marker date="1446710598936" expanded="true" signature="1454:1467" placeholder="create table..missingValuemissingValue..." />
+            <marker date="1446710598936" expanded="true" signature="1454:1538" placeholder="create table..missingValue..." />
+            <marker date="1446710598936" expanded="true" signature="1454:1541" placeholder="create table..missingValue..." />
+            <marker date="1446710598936" expanded="true" signature="3832:3884" placeholder="SELECT id,fe..inventory..." />
+            <marker date="1446710598936" expanded="true" signature="4757:4785" placeholder="SELECT COUNT..coupons..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7416268">
+          <caret line="52" column="5" selection-start-line="9" selection-start-column="6" selection-end-line="52" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>

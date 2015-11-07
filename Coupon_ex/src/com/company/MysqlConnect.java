@@ -1,9 +1,6 @@
 package com.company;
 
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
+import java.sql.*;
 
 /**
  * Created by moshe on 30-10-15.
@@ -20,7 +17,7 @@ public final class MysqlConnect {
 
     private static MysqlConnect instance;
 
-    private MysqlConnect(){
+    private MysqlConnect() throws ClassNotFoundException {
         this.connection = null;
 
         try{
@@ -30,13 +27,13 @@ public final class MysqlConnect {
             Class.forName(driver);
             System.out.println("connecting to data base...");
             this.connection = DriverManager.getConnection(protocol, dbUsername, dbPassword);
-        }catch (Exception e){
+        }catch (SQLException e){
             System.out.println("connecting failed!");
             e.printStackTrace();
         }
     }
 
-    public static MysqlConnect getInstance (){
+    public static MysqlConnect getInstance () throws ClassNotFoundException {
     if (instance == null) {
         instance = new MysqlConnect();
     }

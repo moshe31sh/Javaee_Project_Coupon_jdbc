@@ -1,23 +1,23 @@
-package com.company;
+package com.hibernate;
 
 /**
- * Created by moshe on 23-10-15.
+ * Created by moshe on 06-11-15.
+ */
+/**
+ * Created by moshe on 06-11-15.
  */
 public class Coupon {
+    // Var declaration
     private int id;
     private String title;
     private String description;
 
-    /**
-     * Default constructor
-     */
-    public Coupon() {}
 
     /**
      * Coupon constructor
-      * @param id
-     * @param title
-     * @param description
+     * @param id - coupon id
+     * @param title - coupon title
+     * @param description - coupon description
      */
     public Coupon(int id, String title, String description) {
         setId(id);
@@ -26,55 +26,36 @@ public class Coupon {
     }
 
     /**
-     * getId.
-     * @return id value
+     * Default constructor
      */
+    public Coupon() {
+        super();
+    }
+    // getters and setters
+
     public int getId() {
         return id;
     }
 
-    /**
-     * setId
-     * @param id
-     */
     public void setId(int id) {
         this.id = id;
     }
 
-    /**
-     * getTitle
-     * @return coupon title
-     */
-
     public String getTitle() {
         return title;
     }
-
-    /**
-     * setTitle
-     * @param title
-     */
     public void setTitle(String title) {
         this.title = title;
     }
-
-    /**
-     * getDescription
-     * @return coupon description
-     */
     public String getDescription() {
         return description;
     }
-
-    /**
-     * setDescription
-     * @param description
-     */
     public void setDescription(String description) {
         this.description = description;
     }
     @Override
     public String toString(){
-        return "Coupon details ** id : ["+this.getId() + "] Title: [" + this.getTitle() + "] Description: ["+this.getDescription()+"] **";
+        return "\nCoupon details ** id : ["+this.getId() + "] Title: [" + this.getTitle() + "] Description: ["+this.getDescription()+"] **";
     }
+
 }
